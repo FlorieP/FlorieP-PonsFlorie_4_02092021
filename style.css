@@ -216,7 +216,9 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.l-bloc h2{
+/** Rajout: h2 section SERVICES et PORTFOLIO**/
+#bloc-4-portfolio h2,
+#bloc-2-services h2{
     width: 70%;
     margin: auto;
 }
@@ -275,6 +277,16 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+}
+
+/**Rajout: Blockquote pour SERVICES **/
+blockquote{
+    border-left: none;
+}
+
+blockquote .citation{
+    font-size: 16px;
+    font-style: italic;
 }
 
 .row-no-gutters {
