@@ -693,8 +693,9 @@ a {
     margin: auto auto auto auto;
 }
 
+/**Modification taille p - Accessibilité**/
 p {
-    font-size: 11px;
+    font-size: 13.5px;
 }
 
 .tight-width-whitespace {
@@ -726,16 +727,18 @@ h2 {
     line-height: 1.4em;
 }
 
+/**Modification taille h3 - Accessibilité**/
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
+/**Modification margin**/
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: 30px auto 0px auto; 
     box-shadow: 0px 0px 0px #000000;
 }
 
