@@ -119,6 +119,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
+/**Accessibilité contrast : changement couleurs icons**/
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -133,9 +134,11 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(48, 48, 48, 1);
+    text-shadow: 1px 1px 2px #ffd653;
 }
 
+/**Accessibilité contrast : changement couleurs icons hover**/
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -150,7 +153,8 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(245, 245, 245, 1);
+    text-shadow: 1px 1px 2px #303030;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -759,6 +763,15 @@ h4 {
     color: #FFFFFF!important;
 }
 
+/**Accessibilité contrast: Changement couleur text footer**/
+.text-footer{
+    color: #303030!important;
+}
+
+.shadow{
+    text-shadow: 1px 1px 2px #ffd653;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -789,23 +802,39 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
+/**Accessibilité contrast: Changement couleur background footer**/
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F19B4E;
 }
 
+/**Accessibilité contrast: Changement couleur h1**/
 .tc-white {
-    color: #F3976C!important;
+    color: #FFD653!important;
 }
 
+/**Accessibilité contrast: Changement couleur h1 page Contact**/
+.h1-contact {
+    color: #303030!important;
+    text-shadow: 1px 1px 2px #ffd653;
+}
+
+/**Accessibilité contrast: Changement couleur et taille p page Contact**/
+.p-contact{
+    color: #303030!important;
+    font-size: 15px;
+}
+/**Accessibilité contrast: Changement couleurs bouton**/
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: linear-gradient(to top, #F19B4E, #F3AA4D);
+    color: #303030!important;
+    text-shadow: 1px 1px 2px #ffd653;
 }
 
+/**Accessibilité contrast: Changement couleurs bouton hover**/
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: linear-gradient(to bottom, #F19B4E, #F3AA4D);
+    color: #F5F5F5!important;
+    text-shadow: 1px 1px 2px #303030;
 }
 
 .ltc-white {
