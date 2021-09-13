@@ -754,6 +754,30 @@ h4 {
     color: #333333!important;
 }
 
+/** Rajout h2 page contact**/
+#bloc-7 h2{
+    text-align: center;
+}
+
+/**Mise en page contact**/
+#form_1{
+    padding: 10px;
+    margin-right: 20px;
+}
+aside p {
+    margin: 50px auto 50px 50px;
+    line-height: 2em;
+}
+.fas{
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    margin-right: 10px;
+    color: #F3AA4D;
+}
+/** FIN mise en page contact**/
+
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
