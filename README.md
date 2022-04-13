@@ -1,2 +1,15 @@
-# FlorieP-PonsFlorie_4_02092021
-Openclassroom | Projet 4 - La Chouette Agence
+# GROUPOMANIA
+
+Optimiser un site web existant (SEO & accessibilité).
+  
+## Pré-requis
+ 
+ Aucun
+
+## Auteur
+
+Florie PONS
+
+## Projet
+
+Formation Développeur Web d'Openclassrooms - Projet 4
